@@ -1,0 +1,369 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  background-color: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #141414;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #e5e5e5;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #f40612;
+}
+
+/* Botão de Conta */
+.account-btn {
+  padding: 8px 16px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.account-btn:hover {
+  background-color: #f40612;
+}
+
+/* Estilo da barra de pesquisa */
+#search-bar {
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Estilo dos carrosséis */
+.carousel {
+  margin: 20px;
+}
+
+.carousel h2 {
+  color: #e5e5e5;
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel-item {
+  min-width: 200px;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.movie-image1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/senhor\ dos\ aneis.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/a\ origem.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image3 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/forrest\ gump.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image4 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/jurassic\ park.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image5 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/coringa.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image6 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/star\ wars.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image7 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/Moana_-_Um_Mar_de_Aventuras.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image8 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/Homem_Aranha_1.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image9 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/Toy_Story_1995.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image10 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/matrix.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image11 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/sonho\ de\ liberdade.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image12 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/GladiadorPoster.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image13 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/vingadores.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image14 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/valente.jpeg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image15 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/mulan2_.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image16 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/ultimato.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image17 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/jumanji.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image18 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/harry\ potter.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image19 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/pocahontas.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image20 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/missão\ impossivel.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image21 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/invocação\ do\ mal.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.movie-image22 {
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/divertida-mente-poster-painel-camundongo-718x1024.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* Exibir descrição ao passar o mouse */
+.carousel-item:hover::after {
+  content: attr(data-description);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+/* Carrossel aprimorado para rolagem automática */
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Para navegadores baseados em WebKit (Chrome, Safari) */
+}

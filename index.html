@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/logotipo-da-netflix.jpg" alt="Netflix Logo" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">My Netflix</a></li>
+        <li>
+          <input type="text" placeholder="Search..." id="search-bar">
+        </li>
+        <li>
+          <a href="account.html" id="account-link" class="account-btn">Minha Conta</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="carousel">
+    <h2>Recomendado</h2>
+    <div class="carousel-container" id="recommended-carousel">
+      <div class="carousel-item" data-description="Um épico de fantasia sobre a luta entre bem e mal.">
+        <div class="movie-image1"></div>
+        <p>O Senhor dos Anéis</p>
+      </div>
+      <div class="carousel-item" data-description="Um ladrão de sonhos embarca numa missão para implantar uma ideia.">
+        <div class="movie-image2"></div>
+        <p>A Origem (Inception)</p>
+      </div>
+      <div class="carousel-item" data-description="Um romance épico que atravessa várias décadas e gerações.">
+        <div class="movie-image3"></div>
+        <p>Forrest Gump</p>
+      </div>
+      <div class="carousel-item" data-description="Uma aventura jurássica com dinossauros em um parque temático.">
+        <div class="movie-image4"></div>
+        <p>Jurassic Park</p>
+      </div>
+      <div class="carousel-item" data-description="A origem do icônico vilão dos quadrinhos.">
+        <div class="movie-image5"></div>
+        <p>Coringa</p>
+      </div>
+      <div class="carousel-item" data-description="Uma jornada pela história da galáxia em uma batalha entre a luz e a escuridão.">
+        <div class="movie-image6"></div>
+        <p>Star Wars</p>
+      </div>
+      <div class="carousel-item" data-description="História sobre uma garota que desafia as expectativas de sua família real.">
+        <div class="movie-image7"></div>
+        <p>Moana</p>
+      </div>
+      <div class="carousel-item" data-description="O super-herói aranha enfrenta novos desafios em Nova York.">
+        <div class="movie-image8"></div>
+        <p>Homem-Aranha</p>
+      </div>
+      <div class="carousel-item" data-description="Uma aventura mágica no mundo dos brinquedos.">
+        <div class="movie-image9"></div>
+        <p>Toy Story</p>
+      </div>
+      <div class="carousel-item" data-description="Um drama sobre a luta pela liberdade em uma sociedade opressiva.">
+        <div class="movie-image10"></div>
+        <p>Matrix</p>
+      </div>
+      <div class="carousel-item" data-description="Uma emocionante história de sobrevivência e amizade em uma prisão.">
+        <div class="movie-image11"></div>
+        <p>Um Sonho de Liberdade</p>
+      </div>
+      <div class="carousel-item" data-description="A história de um herói improvável que luta contra a opressão.">
+        <div class="movie-image12"></div>
+        <p>Gladiador</p>
+      </div>
+      <div class="carousel-item" data-description="Um grupo de super-heróis luta contra uma ameaça mundial.">
+        <div class="movie-image13"></div>
+        <p>Os Vingadores</p>
+      </div>
+      <div class="carousel-item" data-description="Uma jovem valente desafia tradições e segue seu coração.">
+        <div class="movie-image14"></div>
+        <p>Valente</p>
+      </div>
+      <div class="carousel-item" data-description="Uma aventura épica de uma jovem em busca de seu destino.">
+        <div class="movie-image15"></div>
+        <p>Mulan</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrossel de "Continue Assistindo" -->
+  <section class="carousel">
+    <h2>Continue Assistindo</h2>
+    <div class="carousel-container" id="continue-watching-carousel">
+      <div class="carousel-item" data-description="A épica batalha final entre os Vingadores e Thanos.">
+        <div class="movie-image16"></div>
+        <p>Vingadores: Ultimato</p>
+      </div>
+      <div class="carousel-item" data-description="Uma expedição ao coração da selva para encontrar uma criatura mítica.">
+        <div class="movie-image17"></div>
+        <p>Jumanji</p>
+      </div>
+      <div class="carousel-item" data-description="Um mundo de mágica e mistério em Hogwarts.">
+        <div class="movie-image18"></div>
+        <p>Harry Potter</p>
+      </div>
+      <div class="carousel-item" data-description="Uma jovem decide enfrentar seu destino em busca da salvação de seu povo.">
+        <div class="movie-image19"></div>
+        <p>Pocahontas</p>
+      </div>
+      <div class="carousel-item" data-description="Um espião retorna para enfrentar uma nova ameaça mundial.">
+        <div class="movie-image20"></div>
+        <p>Missão Impossível</p>
+      </div>
+      <div class="carousel-item" data-description="O passado assombra uma família em uma casa mal-assombrada.">
+        <div class="movie-image21"></div>
+        <p>Invocação do Mal</p>
+      </div>
+      <div class="carousel-item" data-description="Uma jornada pela mente de uma jovem e suas emoções.">
+        <div class="movie-image22"></div>
+        <p>Divertida Mente</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
