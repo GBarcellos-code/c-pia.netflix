@@ -1,4 +1,3 @@
-/* Estilo geral */
 body {
   margin: 0;
   background-color: #141414;
@@ -6,7 +5,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Estilo do cabeçalho */
 header {
   display: flex;
   align-items: center;
@@ -19,8 +17,16 @@ header {
 
 .logo {
   width: 100px;
+  margin-left: 15px;
 }
-
+.top-bar{
+  width: 32%;
+  height: 60px;
+  background-color: #000000;
+  position: fixed;
+  z-index: -1000;
+  border-radius: 10px;
+}
 nav ul {
   display: flex;
   align-items: center;
@@ -40,13 +46,14 @@ nav ul {
 }
 
 .nav-links a:hover {
-  color: #f40612;
+  color: #a5171e;
 }
-
-/* Botão de Conta */
+.nav-links a1:hover {
+  color: #fff;
+}
 .account-btn {
   padding: 8px 16px;
-  background-color: #e50914;
+  background-color: #a5171e;
   color: white;
   border-radius: 5px;
   text-transform: uppercase;
@@ -55,10 +62,9 @@ nav ul {
 }
 
 .account-btn:hover {
-  background-color: #f40612;
+  background-color: #681e22;
 }
 
-/* Estilo da barra de pesquisa */
 #search-bar {
   padding: 6px;
   border: none;
@@ -67,7 +73,6 @@ nav ul {
   font-size: 14px;
 }
 
-/* Estilo dos carrosséis */
 .carousel {
   margin: 20px;
 }
@@ -332,7 +337,7 @@ nav ul {
   font-size: 14px;
   border-radius: 5px;
 }
-/* Exibir descrição ao passar o mouse */
+
 .carousel-item:hover::after {
   content: attr(data-description);
   position: absolute;
@@ -349,7 +354,7 @@ nav ul {
   text-align: center;
   font-size: 16px;
 }
-/* Carrossel aprimorado para rolagem automática */
+
 .carousel-container {
   display: flex;
   overflow-x: auto;
@@ -365,5 +370,5 @@ nav ul {
   }
 }
 .carousel-container::-webkit-scrollbar {
-  display: none; /* Para navegadores baseados em WebKit (Chrome, Safari) */
+  display: none;
 }
